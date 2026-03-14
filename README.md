@@ -49,23 +49,14 @@ that is not captured by standard RNA-seq approaches.
 
 ## Repository Structure
 ```
+Repository Structure
 polya-tnbc-nanopore/
-├── data/
-│   └── combined_pti_values.csv      # Per-read polyA tail lengths (96 genes)
-├── analysis/
-│   └── polyA_analysis.R             # Full R analysis script
-├── figures/
-│   ├── Fig1_Overall_Distribution.png
-│   ├── Fig2_Mean_PolyA_Per_Gene.png
-│   ├── Fig3_Functional_Groups.png
-│   ├── Fig4_Integrin_Family.png
-│   └── Fig5_ITGB1_vs_RPL37A.png
-├── results/
-│   └── polyA_gene_summary_stats.csv # Per-gene summary statistics
-└── README.md
+├── combined_pti_values.csv    # Per-read polyA tail lengths (96 genes)
+├── polyA_analysis.R           # Full R analysis script
+├── figures/                   # Generated figures (upload after running analysis)
+├── README.md
+└── LICENSE
 ```
-
----
 
 ## Methods Summary
 
