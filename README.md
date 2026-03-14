@@ -49,7 +49,6 @@ that is not captured by standard RNA-seq approaches.
 
 ## Repository Structure
 ```
-Repository Structure
 polya-tnbc-nanopore/
 ├── combined_pti_values.csv    # Per-read polyA tail lengths (96 genes)
 ├── polyA_analysis.R           # Full R analysis script
